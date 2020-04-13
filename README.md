@@ -2,8 +2,6 @@
 
 Exclude one or more items from an array.
 
-The function returns a new array without mutating the initial array.
-
 ## Installation
 
 ```sh
@@ -19,3 +17,5 @@ const groceries = ['apple', 'potato', 'pear', 'cucumber', 'orange'];
 const noCucumber = arrayWithout(groceries, 'cucumber'); // => ['apple', 'potato', 'pear', 'orange']
 const onlyFruits = arrayWithout(groceries, 'potato', 'cucumber'); // => ['apple', 'pear', 'orange']
 ```
+
+The function returns a new array without mutating the initial array.
