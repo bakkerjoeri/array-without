@@ -1,10 +1,10 @@
 {
   "name": "@bakkerjoeri/array-without",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns an array without given items.",
   "repository": {
-	"type" : "git",
-	"url" : "https://github.com/bakkerjoeri/array-without.git"
+    "type": "git",
+    "url": "https://github.com/bakkerjoeri/array-without.git"
   },
   "main": "dist/arrayWithout.js",
   "types": "dist/arrayWithout.d.ts",
