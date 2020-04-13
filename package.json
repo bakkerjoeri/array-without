@@ -1,13 +1,15 @@
 {
   "name": "@bakkerjoeri/array-without",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Returns an array without given items.",
   "main": "dist/arrayWithout.js",
   "types": "dist/arrayWithout.d.ts",
   "scripts": {
-	"build": "tsc",
+	"build": "rm -rf dist && tsc",
 	"test": "jest",
-	"prepublish": "npm run test && npm run build"
+	"preversion": "npm run test",
+	"version": "npm run build && git add -A dist",
+	"postversion": "git push && git push --tags"
   },
   "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
   "license": "MIT",

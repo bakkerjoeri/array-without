@@ -2,7 +2,8 @@
     "compilerOptions": {
         "strict": true,
 		"target": "es5",
-		"module": "ES6",
+		"module": "CommonJS",
+		"moduleResolution": "node",
 		"esModuleInterop": true,
         "lib": ["es7"],
         "outDir": "dist",
