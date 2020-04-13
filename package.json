@@ -1,0 +1,23 @@
+{
+  "name": "@bakkerjoeri/array-without",
+  "version": "1.0.0",
+  "description": "Returns an array without given items.",
+  "main": "dist/arrayWithout.js",
+  "types": "dist/arrayWithout.d.ts",
+  "scripts": {
+	"build": "tsc",
+	"test": "jest",
+	"prepublish": "npm run test && npm run build"
+  },
+  "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "help": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
+}
