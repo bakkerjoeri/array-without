@@ -1,6 +1,6 @@
 {
   "name": "@bakkerjoeri/array-without",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Returns an array without given items.",
   "repository": {
     "type": "git",
