@@ -17,9 +17,7 @@
   },
   "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "help": "^3.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.3.0",
