@@ -3,6 +3,7 @@
         "strict": true,
 		"target": "ES6",
 		"moduleResolution": "node",
+		"esModuleInterop": true,
         "lib": ["es7"],
         "outDir": "dist",
 		"declaration": true
