@@ -1,3 +1,6 @@
+> **Note**
+> Just use `array.filter((value) => ![values, to, exclude].includes(value))`
+
 # array-without
 
 Exclude one or more items from an array.
